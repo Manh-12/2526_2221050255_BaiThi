@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ptien\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj": {}
+    "C:\\Users\\ptien\\OneDrive\\Desktop\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ptien\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj": {
+    "C:\\Users\\ptien\\OneDrive\\Desktop\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ptien\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj",
+        "projectUniqueName": "C:\\Users\\ptien\\OneDrive\\Desktop\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj",
         "projectName": "2526_2221050255_BaiThi",
-        "projectPath": "C:\\Users\\ptien\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj",
+        "projectPath": "C:\\Users\\ptien\\OneDrive\\Desktop\\2526_2221050255_BaiThi\\2526_2221050255_BaiThi.csproj",
         "packagesPath": "C:\\Users\\ptien\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ptien\\2526_2221050255_BaiThi\\obj\\",
+        "outputPath": "C:\\Users\\ptien\\OneDrive\\Desktop\\2526_2221050255_BaiThi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ptien\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -34,7 +34,7 @@
           ]
         },
         "restoreAuditProperties": {
-          "enableAudit": "true",
+          "enableAudit": "false",
           "auditLevel": "low",
           "auditMode": "all"
         },
@@ -43,6 +43,40 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "NuGet.Packaging": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
